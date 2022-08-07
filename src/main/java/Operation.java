@@ -22,4 +22,12 @@ public class Operation {
     public double getAmount() {
         return amount;
     }
+
+    public OperationType getType() {
+        return type;
+    }
+
+    public Date getDate() {
+        return date;
+    }
 }

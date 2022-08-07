@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="531dcf77-10c8-4b8c-9032-e1ee26aae265" name="Changes" comment="ADD deposit feature">
+    <list default="true" id="531dcf77-10c8-4b8c-9032-e1ee26aae265" name="Changes" comment="ADD withdraw feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/History.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Statement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +67,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.amount_should_be_positive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountTest.historyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SG-BankAccount" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="METHOD_NAME" value="amount_should_be_positive" />
+      <option name="METHOD_NAME" value="historyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,11 +87,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.should_increase_balance_when_make_deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountTest.verify_the_statement_printing_is_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SG-BankAccount" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="METHOD_NAME" value="should_increase_balance_when_make_deposit" />
+      <option name="METHOD_NAME" value="verify_the_statement_printing_is_correct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,10 +110,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.AccountTest.verify_the_statement_printing_is_correct" />
+        <item itemvalue="JUnit.AccountTest.historyTest" />
         <item itemvalue="JUnit.AccountTest.withdraw_amount_should_be_positive" />
         <item itemvalue="JUnit.AccountTest.should_calculate_balance_when_make_deposit_and_withdraw" />
-        <item itemvalue="JUnit.AccountTest.amount_should_be_positive" />
-        <item itemvalue="JUnit.AccountTest.should_increase_balance_when_make_deposit" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659871231096</updated>
-      <workItem from="1659871232509" duration="4562000" />
+      <workItem from="1659871232509" duration="12170000" />
     </task>
     <task id="LOCAL-00001" summary="ADD deposit feature">
       <created>1659879051665</created>
@@ -132,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659879051665</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor deposit test methode name">
+      <created>1659879799185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659879799185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ADD withdraw feature">
+      <created>1659879828672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659879828672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +167,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADD deposit feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD deposit feature" />
+    <MESSAGE value="Refactor deposit test methode name" />
+    <MESSAGE value="ADD withdraw feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD withdraw feature" />
   </component>
 </project>

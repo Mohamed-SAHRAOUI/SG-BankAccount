@@ -1,4 +1,3 @@
-import java.util.List;
 
 public class Account {
 
@@ -27,5 +26,14 @@ public class Account {
             throw new IllegalArgumentException("Deposit amount should be positive");
         }
         history.addOperation(Operation.withdraw(amount));
+    }
+
+    public void printStatement(Statement statement) {
+        statementPrinter.print(statement);
+    }
+
+    public Statement getStatement() {
+        double balance = getBalance();
+        return new Statement(history, balance);
     }
 }
