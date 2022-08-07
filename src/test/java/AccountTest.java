@@ -13,7 +13,7 @@ public class AccountTest {
     }
 
     @Test
-    public void amount_should_be_positive() {
+    public void deposit_amount_should_be_positive() {
         Account account = new Account();
         assertThrows(IllegalArgumentException.class,() -> account.deposit(-10),"Deposit amount should be positive");
     }
