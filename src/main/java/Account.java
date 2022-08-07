@@ -21,4 +21,11 @@ public class Account {
     public double getBalance() {
         return history.getBalance();
     }
+
+    public void withdraw(double amount) {
+        if (amount < 0) {
+            throw new IllegalArgumentException("Deposit amount should be positive");
+        }
+        history.addOperation(Operation.withdraw(amount));
+    }
 }

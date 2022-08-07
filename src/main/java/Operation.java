@@ -15,6 +15,10 @@ public class Operation {
         return new Operation(OperationType.DEPOSIT, amount);
     }
 
+    public static Operation withdraw(double amount) {
+        return new Operation(OperationType.WITHDRAW, -amount);
+    }
+
     public double getAmount() {
         return amount;
     }

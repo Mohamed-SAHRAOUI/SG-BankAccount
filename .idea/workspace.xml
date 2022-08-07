@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="531dcf77-10c8-4b8c-9032-e1ee26aae265" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/History.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OperationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Statement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AccountTest.java" afterDir="false" />
+    <list default="true" id="531dcf77-10c8-4b8c-9032-e1ee26aae265" name="Changes" comment="ADD deposit feature">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +75,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountTest.should_calculate_balance_when_make_deposit_and_withdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SG-BankAccount" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest" />
+      <option name="METHOD_NAME" value="should_calculate_balance_when_make_deposit_and_withdraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountTest.should_increase_balance_when_make_deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SG-BankAccount" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,9 +95,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountTest.withdraw_amount_should_be_positive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SG-BankAccount" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest" />
+      <option name="METHOD_NAME" value="withdraw_amount_should_be_positive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.AccountTest.withdraw_amount_should_be_positive" />
+        <item itemvalue="JUnit.AccountTest.should_calculate_balance_when_make_deposit_and_withdraw" />
         <item itemvalue="JUnit.AccountTest.amount_should_be_positive" />
         <item itemvalue="JUnit.AccountTest.should_increase_balance_when_make_deposit" />
       </list>
@@ -109,8 +123,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659871231096</updated>
-      <workItem from="1659871232509" duration="3834000" />
+      <workItem from="1659871232509" duration="4562000" />
     </task>
+    <task id="LOCAL-00001" summary="ADD deposit feature">
+      <created>1659879051665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659879051665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,5 +148,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADD deposit feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD deposit feature" />
   </component>
 </project>
